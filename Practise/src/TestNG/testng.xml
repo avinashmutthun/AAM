@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Tc1andtestngparameters">
+
+
+<test name="Tc1">
+<classes>
+<class name="TestNG.testng"/>
+</classes>
+</test>
+
+<test name="testngparameters">
+<parameter name="strUN" value="qaplanet1"/>
+<classes>
+<class name="TestNG.testngparameters_1"/>
+</classes>
+</test>
+
+
+<test name="frameworks">
+<packages>
+<package name="oops"/>
+</packages>
+</test>
+</suite>
